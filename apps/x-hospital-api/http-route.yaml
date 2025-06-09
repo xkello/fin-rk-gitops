@@ -12,7 +12,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /x-api
+            value: /rk-api # TODO
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -22,29 +22,29 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: x-hospital-api
+          name: rk-hospital-api # TODO
           port: 80
     - matches:
         - path:
             type: PathPrefix
-            value: /x-openapi-ui
+            value: /rk-openapi-ui # TODO
       backendRefs:
         - group: ""
           kind: Service
-          name: x-openapi-ui
+          name: rk-openapi-ui # TODO
           port: 80
     - matches:
         - path:
             type: Exact
-            value: /x-openapi
+            value: /rk-openapi # TODO
       filters:
         - type: URLRewrite
           urlRewrite:
             path:
               type: ReplaceFullPath
-              replaceFullPath: /openapi
+              replaceFullPath: /openapi # TODO # TODO
       backendRefs:
         - group: ""
           kind: Service
-          name: x-hospital-api
+          name: rk-hospital-api
           port: 80

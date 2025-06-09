@@ -7,15 +7,15 @@ spec:
   element: polyfea-md-app # element, ktorý bude vložený na stránku
   attributes: # atribúty elementu polyfea-md-app
     - name: headline
-      value: Hospital administration x
+      value: Hospital administration rk # TODO
     - name: short-headline
-      value: Hospital administration x
+      value: Hospital administration rk # TODO
     - name: supporting-text
       value: Manages administration in hospital
     - name: material-icon
       value: home_health
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
-      value: ./x-hospital
+      value: ./rk-hospital # TODO
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:

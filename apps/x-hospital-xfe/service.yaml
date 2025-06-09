@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: x-hospital-xfe   #  určuje aj záznam DNS v rámci virtuálne siete klastra
+  name: rk-hospital-xfe   # TODO určuje aj záznam DNS v rámci virtuálne siete klastra
 spec:
   selector:
     pod: x-hospital-xfe-label     # zhoduje sa s metadata.labels šablóny pod-u

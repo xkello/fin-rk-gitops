@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /x-hospital/
     - name: api-base
-      value: /x-api
+      value: /rk-api # TODO
     - name: hospital-id
       value: hospital-ba
   displayRules:

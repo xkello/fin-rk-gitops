@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: r-gitops-repo  # TODO: xbelake # v spoločnom klastri je nasadených viacero takýchto objektov
+  name: rk-gitops-repo  # TODO: xbelake # v spoločnom klastri je nasadených viacero takýchto objektov
   namespace: wac-hospital
 spec:
   interval: 1m0s
